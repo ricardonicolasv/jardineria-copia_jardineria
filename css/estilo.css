@@ -1,0 +1,61 @@
+#centro{
+    background-color: rgba(0, 0, 0, 0.651);
+    color: azure;
+    text-align: center;
+    height: 100%;
+    width: 60%;
+}
+#flores{
+    background-color: rgba(0, 0, 0, 0.651);
+    color: azure;
+    text-align: center;
+    height: 100%;
+    width: 40%;
+}
+#texto{
+    color: yellow;
+    background-color: rgba(137, 43, 226, 0.534);
+    text-align: center;
+    margin: 20px;
+    border: solid black 10px;
+}
+#columnas_laterales{
+    border: solid black 10px;
+    background-color: rgba(254, 254, 255, 0.486);
+    color: black;
+    text-align: left;
+    width: 20%;
+}
+#fondo{
+    background-image: url("fondo.jpg");
+}
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.row.content {
+    height: 100%;
+}
+.sidenav {
+    padding-top: 20px;
+    background-color: rgba(255, 255, 255, 0.623);
+    height: 100%;
+    width: 20%;
+}
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+}
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(10%); /* make all photos black and white */
+    width: 60%; /* Set width to 100% */
+    margin: auto;
+  }
